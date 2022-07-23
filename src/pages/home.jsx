@@ -1,3 +1,9 @@
+import React from 'react'
+
+const home = () => {
+  return (
+    <div>
+
 <body>
     Pricing
     About
@@ -45,3 +51,9 @@
     About
     Contact
   </body>
+    </div>
+  )
+}
+
+export default home
+
