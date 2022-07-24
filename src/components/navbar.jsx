@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const navbar = () => {
   return (
+    
     // NAVBAR CONTAINER
     <div className='w-[100vw] h-[150px] bg-transparent flex flex-col justify-center items-center'>
       {/* Flex Container */}
@@ -19,8 +20,6 @@ const navbar = () => {
           Schedule a Demo
         </button>
       </div>
-
-        
     </div>
   )
 }

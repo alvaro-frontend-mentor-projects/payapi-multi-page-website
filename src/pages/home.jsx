@@ -1,11 +1,16 @@
 import React from 'react'
-
+import bgCircle from '../assets/shared/desktop/bg-pattern-circle.svg'
 const home = () => {
   return (
-    <div>
+    
 
-<body>
-    Pricing
+      // HOME MAIN CONTAINER
+      <main className='w-[100wv]'>
+        {/* Background Circle Image - position absolute */}
+        <img className='absolute right-[-150px] top-[-150px]' src={bgCircle} alt="" />
+
+
+        Pricing
     About
     Contact
     Schedule a Demo
@@ -50,8 +55,12 @@ const home = () => {
     Pricing
     About
     Contact
-  </body>
-    </div>
+  
+
+      </main>
+
+
+    
   )
 }
 
