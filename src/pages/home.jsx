@@ -5,7 +5,7 @@ const Home = () => {
     
 
       // HOME MAIN CONTAINER
-      <main className='flex flex-col justify-center w-[100wv] h-screen bg-[#EDF3F8]   mt-[-150px]'>
+      <main className='flex flex-col justify-center w-[100wv] h-screen    mt-[-150px]'>
 
 
         {/* Background Circle Image - position absolute */}

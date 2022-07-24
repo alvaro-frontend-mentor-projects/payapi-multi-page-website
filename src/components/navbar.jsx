@@ -35,12 +35,11 @@ const Navbar = () => {
     
     
     // NAVBAR CONTAINER
-    <div className='w-[100vw] h-[150px] flex flex-col justify-center items-center bg-transparent'>
+    <div className='w-[100vw] h-[150px] flex flex-col justify-center items-center bg-transparent relative'>
       {/* Flex Container */}
       <div className='flex flex-row justify-between w-[80%] gap-10 items-center '>
         {/* Logo */}
         <img className='s' src={logo} alt="" />
-        <a href="www.google.com">pricing2</a>
         {/* Links */}
         <ul className='sm:hidden md:flex lg:flex flex-row gap-10 text-[15px] font-[700] text-fmLightSanJuanBlue'>
           <li><Link to="/pricing">Pricing</Link></li>
@@ -52,26 +51,30 @@ const Navbar = () => {
           Schedule a Demo
         </button>
 
-        <button onClick={addEmployee2} className="bg-blue-400">Add Employee</button>
 
         
 
         {/* MOBILE MENU SECTION */}
         <div onClick={handleMenu} >
-          {mobile ? "open" : "close" }
-          
-        </div>
-        <img 
-          className='md:hidden lg:hidden' 
+          {mobile ?  
+          <img 
+          className='' 
           src={hambuger} 
           alt="hamburger menu icon"
-          
         />
-        <img
-          className='sm:hidden'
+          : 
+         <img
+          className=''
           src={closeMobile} 
           alt="close menu icon" 
-        />
+        />  
+        }
+          
+        </div>
+
+        {/* <img className='absolute h-[700px] w-[700px] z-[-1]'  src={bgCircle} alt="" /> */}
+        
+        
 
       </div>
     </div>
