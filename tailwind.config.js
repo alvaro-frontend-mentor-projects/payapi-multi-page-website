@@ -20,6 +20,9 @@ module.exports = {
         fmCharmPink: "#da6d97",
         fmLightSanJuanBlue: "#6c8294" 
       },
+      backgroundImage: {
+        'hero-pattern': "url('../src/assets/shared/desktop/bg-pattern-circle.svg')"
+      }
     },
   },
   plugins: [],

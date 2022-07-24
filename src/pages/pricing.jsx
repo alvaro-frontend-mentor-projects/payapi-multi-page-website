@@ -1,5 +1,18 @@
-<body>
-Pricing
+import React from 'react'
+
+const Pricing = () => {
+
+    const addEmployee2 = (e) => {
+        e.preventDefault();
+        console.log("it works!")
+      };
+
+
+  return (
+    <div>
+        
+        <button onClick={addEmployee2} className="bg-blue-400">Add Employee</button>
+        Pricing
 About
 Contact
 Schedule a Demo
@@ -52,4 +65,11 @@ Schedule a Demo
 Pricing
 About
 Contact
-</body>
+</div>
+
+
+  )
+}
+
+export default Pricing
+
