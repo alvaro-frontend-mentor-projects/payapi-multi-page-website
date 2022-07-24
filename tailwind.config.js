@@ -9,7 +9,18 @@ module.exports = {
       'md': '768px',
       'lg': '1440px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        // Primary Colors
+        fmDarkPink: "#ba4270",
+        fmWaterWhite: "#fbfcfe",
+        // Secondary Colors
+        fmSanJuanBlue: "#36536b",
+        fmMirageBlue: "#1b262f",
+        fmCharmPink: "#da6d97",
+        fmLightSanJuanBlue: "#6c8294" 
+      },
+    },
   },
   plugins: [],
 }
