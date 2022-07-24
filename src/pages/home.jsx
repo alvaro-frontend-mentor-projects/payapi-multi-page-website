@@ -5,7 +5,7 @@ const home = () => {
     
 
       // HOME MAIN CONTAINER
-      <main className='w-[100wv]'>
+      <main className='w-[100wv] h-screen bg-[#EDF3F8]'>
         {/* Background Circle Image - position absolute */}
         <img className='absolute right-[-150px] top-[-150px]' src={bgCircle} alt="" />
 
