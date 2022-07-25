@@ -20,15 +20,15 @@ const Home = () => {
             {/* Email Input & Button Row Container */}
             <div className='flex flex-row  '>
               {/* Email */}
-              <input className='rounded-[50px] pl-5 pr-20 mr-[-35px]' type="text" placeholder='Enter email address' />
+              <input className='rounded-[50px] pl-5 pr-20 mr-[-35px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none' type="text" placeholder='Enter email address' />
               {/* Button */}
-              <button className=' bg-fmDarkPink text-[15px] font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px]'>
+              <button className=' bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-PublicSans font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px]'>
                 Schedule a Demo
               </button>
             </div>
             {/* Question text */}
             <div className='text-[15px] text-fmLightSanJuanBlue ml-6 mt-[-20px]'>
-              <p>Have any questions? <span className='font-bold text-fmSanJuanBlue'>Contact Us</span></p>
+              <p>Have any questions? <span className='font-bold text-fmLightSanJuanBlue'>Contact Us</span></p>
             </div>
           </div>
 
@@ -36,8 +36,6 @@ const Home = () => {
           <div className='flex flex-row justify-end w-[50%]  '>
             {/* Cellphone Image */}
               <img className='h-[660px] w-[400px] mt-[-30px]' src={phone} alt="Cellphone Image" />
-          
-            
           </div>
         </div>
         
