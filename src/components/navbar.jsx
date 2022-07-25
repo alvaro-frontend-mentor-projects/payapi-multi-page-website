@@ -55,7 +55,7 @@ const Navbar = () => {
         
 
         {/* MOBILE MENU SECTION */}
-        <div onClick={handleMenu} >
+        <div className='hidden' onClick={handleMenu} >
           {mobile ?  
           <img 
           className='' 

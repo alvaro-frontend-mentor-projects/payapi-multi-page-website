@@ -6,11 +6,11 @@ const Home = () => {
     
 
       // HOME MAIN CONTAINER
-      <main className='w-[100wv] h-screen pt-[150px]  mt-[-150px] bg-desktop-circle bg-no-repeat bg-[right_-200px_top_-300px] '>
+      <main className='w-[100wv] h-screen pt-[150px]  mt-[-150px] bg-desktop-circle bg-no-repeat bg-[right_-150px_top_-200px] '>
 
 
         {/* [[[[[[ HERO SECTION ]]]]]] */}
-        <div className=' flex flex-row mx-[150px] justify-center'>
+        <div className=' flex flex-row mx-[150px] justify-center h-[550px]'>
           {/* Left Column */}
           <div className='flex flex-col justify-center align-middle w-[50%] gap-10'>
             {/* Main Text */}
@@ -36,7 +36,7 @@ const Home = () => {
           <div className='flex flex-row justify-end w-[50%]  '>
             {/* Cellphone Image */}
          
-              <img className='h-[660px] w-[419px]' src={phone} alt="Cellphone Image" />
+              <img className='h-[660px] w-[419px] mt-[-30px]' src={phone} alt="Cellphone Image" />
           
             
           </div>
