@@ -27,15 +27,15 @@ const Home = () => {
 
 
         {/* [[[[[[ HERO SECTION ]]]]]] */}
-        <div className=' flex flex-row md:mx-[80px] lg:mx-[150px] justify-center h-[600px] '>
+        <div className=' flex md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] justify-center items-center h-[600px] '>
           {/* Left Column */}
-          <div className='flex flex-col justify-center align-middle w-[50%] gap-10'>
+          <div className='flex flex-col justify-center align-middle md:w-[100%] lg:w-[50%] gap-10'>
             {/* Main Text */}
-            <div className='text-[72px]  leading-[72px] font-[500] font-SerifDisplay text-fmSanJuanBlue'>
+            <div className='md:text-[48px] md:text-center lg:text-[72px]  leading-[72px] font-[500] font-SerifDisplay text-fmSanJuanBlue md:mt-[-40px] lg:mt-[0]'>
               Start building with our APIs for absolutely free.
             </div>
             {/* Email Input & Button Row Container */}
-            <div className='flex flex-row  '>
+            <div className='flex flex-row md:justify-center '>
               {/* Email */}
               <input className='rounded-[50px] pl-5 pr-20 mr-[-35px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10' type="text" placeholder='Enter email address' />
               {/* Button */}
@@ -50,9 +50,9 @@ const Home = () => {
           </div>
 
           {/* Right Column */}
-          <div className='flex flex-row justify-end w-[50%]  '>
+          <div className='flex flex-row md:justify-center lg:justify-end md:w-[100%] lg:w-[50%]  '>
             {/* Cellphone Image */}
-              <img className='h-[660px] w-[400px] mt-[-30px] z-10' src={phone} alt="Cellphone Image" />
+              <img className='md:h-[462px] md:w-[280px] lg:h-[660px] lg:w-[400px]  z-10' src={phone} alt="Cellphone Image" />
           </div>
         </div>
         
