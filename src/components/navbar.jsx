@@ -32,8 +32,6 @@ const Navbar = () => {
 
   return (
 
-    
-    
     // NAVBAR CONTAINER
     <div className='w-[100vw] h-[150px] flex flex-col justify-center items-center bg-transparent '>
       {/* Flex Container */}
