@@ -7,7 +7,7 @@ const Home = () => {
     
 
       // HOME MAIN CONTAINER
-      <main className='w-[100wv] h-screen relative  overflow-x-hidden'>
+      <main className=' h-screen relative  overflow-x-hidden'>
         
 
         <Navbar/>
@@ -20,7 +20,10 @@ const Home = () => {
       </div> */}
 
       {/* Circle Bacckground image - absolute position and using index-z of 0 to be places behind all other elements with z-index of 10  - img relative parent is main container with overflow-x-hidden */}
-      <img className='absolute right-[-150px] top-[-150px] z-0' src={bgCircle} alt="" />
+      <div className='flex'>
+        <img className='absolute md:max-w-[1500px] md:w-[1000px] md:right-[-120px] md:top-[-740px] lg:w-[780px] lg:right-[-150px] lg:top-[-150px] z-0' src={bgCircle} alt="" />
+      </div>
+      
 
 
         {/* [[[[[[ HERO SECTION ]]]]]] */}
