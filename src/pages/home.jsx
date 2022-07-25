@@ -35,7 +35,7 @@ const Home = () => {
               Start building with our APIs for absolutely free.
             </div>
             {/* Email Input & Button Row Container */}
-            <div className='flex flex-row md:justify-center '>
+            <div className='flex flex-row md:justify-center lg:justify-start '>
               {/* Email */}
               <input className='rounded-[50px] pl-5 pr-20 mr-[-35px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10' type="text" placeholder='Enter email address' />
               {/* Button */}
@@ -44,7 +44,7 @@ const Home = () => {
               </button>
             </div>
             {/* Question text */}
-            <div className='text-[15px] text-fmLightSanJuanBlue ml-6 md:ml-[0] mt-[-20px] md:text-center'>
+            <div className='text-[15px] text-fmLightSanJuanBlue lg:ml-6 md:ml-[0] mt-[-20px] md:text-center lg:text-left'>
               <p>Have any questions? <span className='font-bold text-fmLightSanJuanBlue'>Contact Us</span></p>
             </div>
           </div>
