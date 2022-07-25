@@ -41,13 +41,13 @@ const Navbar = () => {
         {/* Logo */}
         <img className='s' src={logo} alt="" />
         {/* Links */}
-        <ul className='sm:hidden md:flex lg:flex flex-row gap-10 text-[15px] font-[700] text-fmLightSanJuanBlue'>
+        <ul className='sm:hidden md:flex lg:flex flex-row gap-10 text-[15px] font-PublicSans font-[500] text-fmLightSanJuanBlue'>
           <li className='hover:text-fmSanJuanBlue'><Link to="/pricing">Pricing</Link></li>
           <li className='hover:text-fmSanJuanBlue'><Link to="/about">About</Link></li>
           <li className='hover:text-fmSanJuanBlue'><Link to="/contact">Contact</Link></li>
         </ul>
         {/* Button */}
-        <button className='sm:hidden md:block lg:block ml-auto bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px]'>
+        <button className='sm:hidden md:block lg:block ml-auto font-PublicSans font-[500] bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px]'>
           Schedule a Demo
         </button>
 
