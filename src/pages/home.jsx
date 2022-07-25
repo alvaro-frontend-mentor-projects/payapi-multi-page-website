@@ -15,12 +15,12 @@ const Home = () => {
 
       </div> */}
 
-      {/* Circle Bacckground image - absolute position and using index-z of 0 to be places behind all other elements with z-index of 10 */}
+      {/* Circle Bacckground image - absolute position and using index-z of 0 to be places behind all other elements with z-index of 10  - img relative parent is main container with overflow-x-hidden */}
       <img className='absolute right-[-150px] top-[-150px] z-0' src={bgCircle} alt="" />
 
 
         {/* [[[[[[ HERO SECTION ]]]]]] */}
-        <div className=' flex flex-row md:mx-[80px] lg:mx-[150px] justify-center h-[550px] '>
+        <div className=' flex flex-row md:mx-[80px] lg:mx-[150px] justify-center h-[600px] '>
           {/* Left Column */}
           <div className='flex flex-col justify-center align-middle w-[50%] gap-10'>
             {/* Main Text */}
