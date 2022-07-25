@@ -26,6 +26,7 @@ module.exports = {
       },
       fontFamily: {
         SerifDisplay: ["DM Serif Display, serif"],
+        PublicSans: ["Public Sans, sans-serif"]
       }
     },
   },

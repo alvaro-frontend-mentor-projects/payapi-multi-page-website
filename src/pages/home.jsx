@@ -35,8 +35,7 @@ const Home = () => {
           {/* Right Column */}
           <div className='flex flex-row justify-end w-[50%]  '>
             {/* Cellphone Image */}
-         
-              <img className='h-[660px] w-[419px] mt-[-30px]' src={phone} alt="Cellphone Image" />
+              <img className='h-[660px] w-[400px] mt-[-30px]' src={phone} alt="Cellphone Image" />
           
             
           </div>
