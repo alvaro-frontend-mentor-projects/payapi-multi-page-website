@@ -30,21 +30,15 @@ const Home = () => {
             <div className='text-[15px] text-fmLightSanJuanBlue ml-6 mt-[-20px]'>
               <p>Have any questions? <span className='font-bold text-fmSanJuanBlue'>Contact Us</span></p>
             </div>
-
-
-          
-
-
-
-
           </div>
 
-
-          
           {/* Right Column */}
-          <div>
+          <div className='flex flex-row justify-end w-[50%]  '>
             {/* Cellphone Image */}
-            <img src={phone} alt="" />
+         
+              <img className='h-[660px] w-[419px]' src={phone} alt="Cellphone Image" />
+          
+            
           </div>
         </div>
         
