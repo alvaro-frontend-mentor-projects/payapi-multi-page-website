@@ -35,7 +35,7 @@ const Navbar = () => {
     
     
     // NAVBAR CONTAINER
-    <div className='w-[100vw] h-[150px] flex flex-col justify-center items-center bg-transparent relative'>
+    <div className='w-[100vw] h-[150px] flex flex-col justify-center items-center bg-transparent '>
       {/* Flex Container */}
       <div className='flex flex-row justify-between w-[80%] gap-10 items-center '>
         {/* Logo */}

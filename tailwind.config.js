@@ -21,7 +21,11 @@ module.exports = {
         fmLightSanJuanBlue: "#6c8294" 
       },
       backgroundImage: {
-        'hero-pattern': "url('../src/assets/shared/desktop/bg-pattern-circle.svg')"
+        'desktop-circle': "url('../src/assets/shared/desktop/bg-pattern-circle.svg')",
+        'tablet-circle': "url('../src/assets/shared/desktop/bg-pattern-circle-tablet.svg')"
+      },
+      fontFamily: {
+        SerifDisplay: ["DM Serif Display, serif"],
       }
     },
   },
