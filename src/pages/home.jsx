@@ -6,7 +6,7 @@ const Home = () => {
     
 
       // HOME MAIN CONTAINER
-      <main className='w-[100wv] h-screen pt-[150px]  mt-[-150px]    '>
+      <main className='w-[100wv] h-screen pt-[150px]  mt-[-150px] relative  overflow-x-hidden  '>
         {/* md:bg-tablet-circle lg:bg-desktop-circle bg-no-repeat md:bg-[length:900px_900px] md:bg-[left_-10px_top_-400px] lg:bg-[right_-150px_top_-200px] */}
       
       {/* <div
