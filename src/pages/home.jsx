@@ -6,11 +6,21 @@ const Home = () => {
     
 
       // HOME MAIN CONTAINER
-      <main className='w-[100wv] h-screen pt-[150px]  mt-[-150px] bg-desktop-circle bg-no-repeat bg-[right_-150px_top_-200px] '>
+      <main className='w-[100wv] h-screen pt-[150px]  mt-[-150px]    '>
+        {/* md:bg-tablet-circle lg:bg-desktop-circle bg-no-repeat md:bg-[length:900px_900px] md:bg-[left_-10px_top_-400px] lg:bg-[right_-150px_top_-200px] */}
+      
+      {/* <div
+      className='w-[100%] h-[100%] bg-no-repeat absolute right-0 top-0 z-0'
+        style={{backgroundImage: `url(${bgCircle})`}}>
+
+      </div> */}
+
+      {/* Circle Bacckground image - absolute position and using index-z of 0 to be places behind all other elements with z-index of 10 */}
+      <img className='absolute right-[-150px] top-[-150px] z-0' src={bgCircle} alt="" />
 
 
         {/* [[[[[[ HERO SECTION ]]]]]] */}
-        <div className=' flex flex-row mx-[150px] justify-center h-[550px]'>
+        <div className=' flex flex-row md:mx-[80px] lg:mx-[150px] justify-center h-[550px] '>
           {/* Left Column */}
           <div className='flex flex-col justify-center align-middle w-[50%] gap-10'>
             {/* Main Text */}
@@ -20,9 +30,9 @@ const Home = () => {
             {/* Email Input & Button Row Container */}
             <div className='flex flex-row  '>
               {/* Email */}
-              <input className='rounded-[50px] pl-5 pr-20 mr-[-35px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none' type="text" placeholder='Enter email address' />
+              <input className='rounded-[50px] pl-5 pr-20 mr-[-35px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10' type="text" placeholder='Enter email address' />
               {/* Button */}
-              <button className=' bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-PublicSans font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px]'>
+              <button className=' bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-PublicSans font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px] z-10'>
                 Schedule a Demo
               </button>
             </div>
@@ -35,7 +45,7 @@ const Home = () => {
           {/* Right Column */}
           <div className='flex flex-row justify-end w-[50%]  '>
             {/* Cellphone Image */}
-              <img className='h-[660px] w-[400px] mt-[-30px]' src={phone} alt="Cellphone Image" />
+              <img className='h-[660px] w-[400px] mt-[-30px] z-10' src={phone} alt="Cellphone Image" />
           </div>
         </div>
         
@@ -44,7 +54,7 @@ const Home = () => {
 
        </div>
         
-  
+       
 
       </main>
 
