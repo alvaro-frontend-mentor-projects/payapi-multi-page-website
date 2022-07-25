@@ -21,17 +21,17 @@ const Home = () => {
 
       {/* Circle Bacckground image - absolute position and using index-z of 0 to be places behind all other elements with z-index of 10  - img relative parent is main container with overflow-x-hidden */}
       <div className='flex'>
-        <img className='absolute md:max-w-[1500px] md:w-[1000px] md:right-[-120px] md:top-[-740px] lg:w-[780px] lg:right-[-150px] lg:top-[-150px] z-0' src={bgCircle} alt="" />
+        <img className='absolute md:max-w-[1500px] md:w-[1000px] md:right-[-120px] md:top-[-720px] lg:w-[780px] lg:right-[-150px] lg:top-[-150px] z-0' src={bgCircle} alt="" />
       </div>
       
 
 
         {/* [[[[[[ HERO SECTION ]]]]]] */}
-        <div className=' flex md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] justify-center items-center h-[600px] '>
+        <div className=' flex md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] md:justify-end lg:justify-center items-center md:h-[670px] lg:h-[600px] '>
           {/* Left Column */}
           <div className='flex flex-col justify-center align-middle md:w-[100%] lg:w-[50%] gap-10'>
             {/* Main Text */}
-            <div className='md:text-[48px] md:text-center lg:text-[72px]  leading-[72px] font-[500] font-SerifDisplay text-fmSanJuanBlue md:mt-[-40px] lg:mt-[0]'>
+            <div className='md:text-[48px] md:text-center lg:text-[72px] md:leading-[56px] lg:leading-[72px] font-[500] font-SerifDisplay text-fmSanJuanBlue md:mt-[-40px] lg:mt-[0] md:px-[20px] lg:px-[0px]'>
               Start building with our APIs for absolutely free.
             </div>
             {/* Email Input & Button Row Container */}
@@ -44,7 +44,7 @@ const Home = () => {
               </button>
             </div>
             {/* Question text */}
-            <div className='text-[15px] text-fmLightSanJuanBlue ml-6 mt-[-20px]'>
+            <div className='text-[15px] text-fmLightSanJuanBlue ml-6 md:ml-[0] mt-[-20px] md:text-center'>
               <p>Have any questions? <span className='font-bold text-fmLightSanJuanBlue'>Contact Us</span></p>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Home = () => {
           {/* Right Column */}
           <div className='flex flex-row md:justify-center lg:justify-end md:w-[100%] lg:w-[50%]  '>
             {/* Cellphone Image */}
-              <img className='md:h-[462px] md:w-[280px] lg:h-[660px] lg:w-[400px]  z-10' src={phone} alt="Cellphone Image" />
+              <img className='md:h-[416px] md:w-[252px] lg:h-[660px] lg:w-[400px] mt-[-40px]  z-10' src={phone} alt="Cellphone Image" />
           </div>
         </div>
         
