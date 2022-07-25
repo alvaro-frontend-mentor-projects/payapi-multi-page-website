@@ -42,12 +42,12 @@ const Navbar = () => {
         <img className='s' src={logo} alt="" />
         {/* Links */}
         <ul className='sm:hidden md:flex lg:flex flex-row gap-10 text-[15px] font-[700] text-fmLightSanJuanBlue'>
-          <li><Link to="/pricing">Pricing</Link></li>
-          <li><Link to="/">About</Link></li>
-          <li><Link to="/">Contact</Link></li>
+          <li className='hover:text-fmSanJuanBlue'><Link to="/pricing">Pricing</Link></li>
+          <li className='hover:text-fmSanJuanBlue'><Link to="/about">About</Link></li>
+          <li className='hover:text-fmSanJuanBlue'><Link to="/contact">Contact</Link></li>
         </ul>
         {/* Button */}
-        <button className='sm:hidden md:block lg:block ml-auto bg-fmDarkPink text-[15px] font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px]'>
+        <button className='sm:hidden md:block lg:block ml-auto bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-[700] text-fmWaterWhite w-[173px] h-[48px] rounded-[50px]'>
           Schedule a Demo
         </button>
 
