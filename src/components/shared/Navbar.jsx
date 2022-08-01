@@ -42,7 +42,7 @@ const Navbar = () => {
 				</button>
 
 				{/* MOBILE MENU SECTION */}
-				<div className="hidde" onClick={handleMenu}>
+				<div className="z-10 md:hidden" onClick={handleMenu}>
 					{mobile ? (
 						<img className="" src={hambuger} alt="hamburger menu icon" />
 					) : (

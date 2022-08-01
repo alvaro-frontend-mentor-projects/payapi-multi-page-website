@@ -22,31 +22,19 @@ const Home = () => {
     
 
       // HOME MAIN CONTAINER
-      <main className=' overflow-x-hidden bg-[#EDF3F8]'>
+      <main className=''>
+
+        {/* Circle Bacckground image - absolute position and using index-z of 0 to be places behind all other elements with z-index of 10  - img relative parent is main container with overflow-x-hidden */}
         
-
+        {/* <img className=' absolute sm:max-w-[1500px] sm:w-[780px] md:w-[1000px] sm:left-[-202px] sm:top-[-550px] md:right-[-120px] md:top-[-720px] lg:w-[780px] lg:left-[850px] lg:top-[-180px] z-0' src={bgCircle} alt="" /> */}
         
-        {/* md:bg-tablet-circle lg:bg-desktop-circle bg-no-repeat md:bg-[length:900px_900px] md:bg-[left_-10px_top_-400px] lg:bg-[right_-150px_top_-200px] */}
       
-      {/* <div
-      className='w-[100%] h-[100%] bg-no-repeat absolute right-0 top-0 z-0'
-        style={{backgroundImage: `url(${bgCircle})`}}>
-
-      </div> */}
-
-      {/* Circle Bacckground image - absolute position and using index-z of 0 to be places behind all other elements with z-index of 10  - img relative parent is main container with overflow-x-hidden */}
-      <div className='flex'>
-        <img className=' absolute sm:max-w-[1500px] sm:w-[780px] md:w-[1000px] sm:left-[-202px] sm:top-[-550px] md:right-[-120px] md:top-[-720px] lg:w-[780px] lg:left-[850px] lg:top-[-180px] z-0' src={bgCircle} alt="" />
-      </div>
-      
-
-
         {/* [[[[[[ HERO SECTION ]]]]]] */}
-        <div className=' flex sm:flex-col-reverse md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] md:justify-end lg:justify-center items-center  sm:h-[670px] lg:h-[600px] '>
+        <div className=' flex sm:flex-col-reverse md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] md:justify-end lg:justify-center items-center   lg:h-[600px] '>
           {/* Left Column */}
           <div className='flex flex-col justify-center align-middle md:w-[100%] lg:w-[50%] gap-10'>
             {/* Main Text */}
-            <div className='  sm:w-[325px] md:w-[100%] sm:text-[32px] md:text-[48px] sm:text-center md:text-start lg:text-[72px] sm:leading-[36px] md:leading-[56px] lg:leading-[72px] md:font-[500] font-SerifDisplay sm:mt-[-25px] md:mt-[-40px] lg:mt-[0] md:px-[20px] lg:px-[0px]  text-fmSanJuanBlue'>
+            <div className='  w-[100%] sm:text-[32px] md:text-[48px] sm:text-center md:text-start lg:text-[72px] sm:leading-[36px] md:leading-[56px] lg:leading-[72px] md:font-[500] font-SerifDisplay sm:mt-[0px] md:mt-[-40px] lg:mt-[0] md:px-[20px] lg:px-[0px]  text-fmSanJuanBlue'>
               <p> Start building with our APIs for absolutely free.</p>
             </div>
             {/* Email Input & Button Row Container */}
@@ -65,12 +53,16 @@ const Home = () => {
           </div>
 
           {/* Right Column */}
-          <div className='flex flex-row md:justify-center lg:justify-end md:w-[100%] lg:w-[50%]  '>
+          <div className='flex flex-row justify-center items-center lg:justify-end w-[100%] lg:w-[50%]  '>
             {/* Cellphone Image */}
-              <img className='sm:h-[310px] sm:w-[195px] md:h-[416px] md:w-[252px] lg:h-[660px] lg:w-[400px] sm:mt-[-35px]  z-10' src={phone} alt="Cellphone Image" />
+              <img className='ml-[20px] sm:h-[315px] sm:w-[200px] md:h-[416px] md:w-[252px] lg:h-[660px] lg:w-[400px] z-10' src={phone} alt="Cellphone Image" />
           </div>
         </div>
         
+
+
+
+
         {/* [[[[[[ WHO WE WORK WITH SECTION ]]]]]] */}
         <div className='  h-[670px] bg-fmMirageBlue overflow-hidden relative' >
           {/* Background circle image */}
