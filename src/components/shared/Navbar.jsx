@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // IMPORT IMAGES AND LOGS
-import logo from "../assets/shared/desktop/logo.svg";
-import hambuger from "../assets/shared/mobile/menu.svg";
-import closeMobile from "../assets/shared/mobile/close.svg";
-import bgCircle from "../assets/shared/desktop/bg-pattern-circle.svg";
+import logo from "../../assets/shared/desktop/logo.svg";
+import hambuger from "../../assets/shared/mobile/menu.svg";
+import closeMobile from "../../assets/shared/mobile/close.svg";
+
 
 const Navbar = () => {
 	//MOBILE MENU STATE
@@ -19,7 +19,7 @@ const Navbar = () => {
 
 	return (
 		//// NAVBAR CONTAINER ////
-		<div className="w-[100vw] sm:h-[120px] md:h-[150px] flex flex-col justify-center items-center bg-transparent ">
+		<div className="w-[100vw] sm:h-[120px] md:h-[150px] flex flex-col justify-center items-center bg-[#EDF3F8] relative  ">
 			{/* Flex Container */}
 			<div className="flex flex-row justify-between w-[80%] gap-10 items-center ">
 				{/* Logo */}
@@ -27,7 +27,7 @@ const Navbar = () => {
 				{/* Links */}
 				<ul className="sm:hidden md:flex lg:flex flex-row gap-10 text-[15px] font-PublicSans font-[500] text-fmLightSanJuanBlue">
 					<li className="hover:text-fmSanJuanBlue z-10">
-						<Link to="/pricing">Pricing</Link>
+						<Link to="/pricing">Pricing</Link>32
 					</li>
 					<li className="hover:text-fmSanJuanBlue z-10">
 						<Link to="/about">About</Link>

@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     screens: {
-      'sm': '375px',
-      'md': '768px',
-      'lg': '1440px',
+      'sm': '300px',
+      'md': '380px',
+      'lg': '770px',
+      'xl': '1440px',
     },
     extend: {
       colors: {
