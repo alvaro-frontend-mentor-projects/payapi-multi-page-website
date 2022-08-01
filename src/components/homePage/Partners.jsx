@@ -41,7 +41,7 @@ const Partners = () => {
                     </p>
                 </div>
                 {/* About us Button */}
-                <button className="border rounded-[50px] h-[48px] w-[129px] text-fmWaterWhite mt-[40px]">
+                <button className="border rounded-[50px] h-[48px] w-[129px] text-fmWaterWhite hover:text-fmMirageBlue hover:bg-fmWaterWhite mt-[40px]">
                     About Us
                 </button>
 
