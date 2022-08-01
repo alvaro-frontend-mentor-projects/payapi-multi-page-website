@@ -12,7 +12,7 @@ import microsoftWhite from '../../assets/shared/desktop/microsoft-white.svg'
 const Partners = () => {
 	return (
         // MAIN CONTAINER
-		<main className="  h-[670px] bg-fmMirageBlue overflow-hidden relative mx-[-24px]">
+		<main className="  h-[670px] md:h-[615px] bg-fmMirageBlue overflow-hidden relative mx-[-24px]">
 			{/* Background circle image */}
 			<img
 				className="absolute sm:max-w-[1000px] sm:w-[780px]  sm:top-[-602px] sm:left-[-202px]"
@@ -22,19 +22,23 @@ const Partners = () => {
             {/* 1 Column Container */}
             <div className="flex flex-col px-[24px] py-[80px] items-center">
                 {/* Brand Section - 2 Columns */}
-                <div className="flex flex-row px-[24px] gap-10 ">
+                <div className="grid grid-cols-2 md:grid-cols-3 px-[24px] gap-10 ">
                     {/* Left Col */}
-                    <div className="flex flex-col w-[50%] gap-10">
+                    
                         <img src={teslaWhite} alt="tesla logo" />
-                        <img src={hpWhite} alt="hp logo" />
-                        <img src={googleWhite} alt="google logo" />
-                    </div>
-                    {/* Right Col */}
-                    <div className="flex flex-col w-[50%] gap-10">
                         <img src={microsoftWhite} alt="microsoft logo" />
+                        <img src={hpWhite} alt="hp logo" />
                         <img src={oracleWhite} alt="oracle logo" />
+                        <img src={googleWhite} alt="google logo" />
+                        
+                        
+                    
+                    {/* Right Col */}
+                    
+                        
+                        
                         <img src={nvidiaWhite} alt="nvidia logo" />
-                    </div>
+                    
                 </div>
                 {/* Title */}
                 <div className="text-white font-SerifDisplay text-center text-[32px] mt-[40px] ">
