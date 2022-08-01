@@ -27,7 +27,7 @@ const Navbar = () => {
 				{/* Links */}
 				<ul className="sm:hidden md:flex lg:flex flex-row gap-10 text-[15px] font-PublicSans font-[500] text-fmLightSanJuanBlue">
 					<li className="hover:text-fmSanJuanBlue z-10">
-						<Link to="/pricing">Pricing</Link>32
+						<Link to="/pricing">Pricing</Link>
 					</li>
 					<li className="hover:text-fmSanJuanBlue z-10">
 						<Link to="/about">About</Link>

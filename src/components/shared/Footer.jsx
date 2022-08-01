@@ -1,17 +1,45 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import bgCircle from '../../assets/shared/desktop/bg-pattern-circle.svg'
+import logoWhite from '../../assets/shared/desktop/logo-white.svg'
+import Facebook from '../../assets/shared/desktop/facebook.svg'
+import Twitter from '../../assets/shared/desktop/twitter.svg'
+import Linkedin from '../../assets/shared/desktop/linkedin.svg'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col h-[353px] bg-fmMirageBlue overflow-hidden relative mx-[-24px]'>
+    <main className='flex flex-col h-[353px] bg-fmMirageBlue overflow-hidden relative mx-[-24px]'>
+        <img
+            className="absolute max-w-[1000px] w-[780px]  bottom-[-606px] left-[-202px]"
+            src={bgCircle}
+            alt=""
+        />
+        {/* flex container */}
+        <div className='flex flex-col justify-center items-center px-[120px] py-[40px] gap-10'>
+            {/* Logo */}
+            <img
+                className='max-w-[300px] w-[135px]'
+                src={logoWhite} 
+                alt="" 
+            />
+            {/* Links */}
+            <div className='flex flex-col items-center text-fmWaterWhite opacity-[70%] font-PublicSans gap-6 '>
+                <Link to="/pricing">Pricing</Link>
+                <Link to="/About">About</Link>
+                <Link to="/Contact">Contact</Link>
+            </div>
+            {/* Social Links */}
+            <div className='flex flex-row gap-6'>
+                <img src={Facebook} alt="facebook logo" />
+                <img src={Twitter} alt="twitter logo" />
+                <img src={Linkedin} alt="linkedin logo" />
 
-    <img
-        className="absolute max-w-[1000px] w-[780px]  bottom-[-602px] left-[-202px]"
-        src={bgCircle}
-        alt=""
-    />
+            </div>
 
-    </div>
+        </div>
+        
+
+    </main>
   )
 }
 
