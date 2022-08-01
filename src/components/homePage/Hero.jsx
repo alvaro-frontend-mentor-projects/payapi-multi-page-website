@@ -1,10 +1,14 @@
 import React from "react";
+import bgCircle from '../../assets/shared/desktop/bg-pattern-circle.svg'
 
 import phone from '../../assets/home/desktop/illustration-phone-mockup.svg'
 
 const Hero = () => {
 	return (
 		<div className=" flex sm:flex-col-reverse md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] md:justify-end lg:justify-center items-center   lg:h-[600px] ">
+
+		<img className=' absolute max-w-[1500px] w-[780px] md:w-[1000px] left-[-202px] top-[-550px] md:left-[-120px] md:top-[-720px] lg:w-[780px] lg:left-[850px] lg:top-[-180px] z-0' src={bgCircle} alt="" />
+
 			{/* Left Column */}
 			<div className="flex flex-col justify-center align-middle md:w-[100%] lg:w-[50%] gap-11">
 				{/* Main Text */}
