@@ -25,7 +25,7 @@ const Hero = () => {
 					</button>
 				</div>
 				{/* Question text */}
-				<div className="text-[15px] text-fmLightSanJuanBlue lg:ml-6 md:ml-[0] mt-[-20px]  sm:text-center lg:text-left mb-[80px] md:mb-0">
+				<div className="text-[15px] text-fmLightSanJuanBlue lg:ml-6 md:ml-[0] mt-[-20px]  sm:text-center lg:text-left mb-[80px] md:mb-[90px]">
 					<p>
 						Have any questions?{" "}
 						<span className="font-bold text-fmLightSanJuanBlue">
