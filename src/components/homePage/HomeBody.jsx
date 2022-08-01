@@ -9,7 +9,7 @@ import banking from '../../assets/home/desktop/icon-banking-and-coverage.svg'
 
 const HomeBody = () => {
   return (
-    <main className='flex flex-col'>
+    <main className='flex flex-col mt-[40px] gap-10'>
         {/* Code Image */}
         <div>
             <img 
@@ -18,7 +18,7 @@ const HomeBody = () => {
                 alt="code image" />
         </div>
         {/* Easy to implement */}
-        <div className='flex flex-col items-centerb gap-6 items-center'>
+        <div className='flex flex-col items-centerb gap-6 items-center mt-[-80px]'>
             <h1 className='text-[36px] font-SerifDisplay text-fmSanJuanBlue'>
                 Easy to implement
             </h1>
@@ -34,7 +34,7 @@ const HomeBody = () => {
                 alt="two phone showcasing ui" />
         </div>
         {/* Simple UI & UX */}
-        <div className='flex flex-col items-centerb gap-6 items-center'>
+        <div className='flex flex-col items-centerb gap-6 items-center mt-[-60px]'>
             <h1 className='text-[36px] font-SerifDisplay text-fmSanJuanBlue'>
                 Simple UI & UX
             </h1>
@@ -43,7 +43,7 @@ const HomeBody = () => {
             </p>
         </div>
         {/* Features Container */}
-        <div className='flex flex-col justify-center items-center mt-[80px] gap-14'>
+        <div className='flex flex-col justify-center items-center mt-[40px] gap-14'>
             {/* Personal Finance */}
             <div className='flex flex-col justify-center items-center gap-8'>
                 <img 
