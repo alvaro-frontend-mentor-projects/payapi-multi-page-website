@@ -8,14 +8,14 @@ import Linkedin from '../../assets/shared/desktop/linkedin.svg'
 
 const Footer = () => {
   return (
-    <main className='flex flex-col h-[353px] bg-fmMirageBlue overflow-hidden relative mx-[-24px]'>
+    <main className='flex flex-col h-[353px] md:h-[100px] bg-fmMirageBlue overflow-hidden relative mx-[-24px]'>
         <img
-            className="absolute max-w-[1000px] w-[780px]  bottom-[-606px] left-[-202px]"
+            className="absolute max-w-[1000px] w-[780px]  bottom-[-606px] left-[-202px] md:bottom-[-606px] md:left-[330px]"
             src={bgCircle}
             alt=""
         />
         {/* flex container */}
-        <div className='flex flex-col justify-center items-center px-[120px] py-[40px] gap-10'>
+        <div className='flex flex-col md:flex-row justify-center md:justify-between items-center px-[120px] md:px-[39px] py-[40px] gap-10'>
             {/* Logo */}
             <img
                 className='max-w-[300px] w-[135px]'
@@ -23,7 +23,7 @@ const Footer = () => {
                 alt="" 
             />
             {/* Links */}
-            <div className='flex flex-col items-center text-fmWaterWhite opacity-[70%] font-PublicSans gap-6 '>
+            <div className='flex flex-col md:flex-row items-center text-fmWaterWhite opacity-[70%] font-PublicSans md:text-[15px] md:ml-[-80px] gap-6 '>
                 <Link to="/pricing">Pricing</Link>
                 <Link to="/About">About</Link>
                 <Link to="/Contact">Contact</Link>
