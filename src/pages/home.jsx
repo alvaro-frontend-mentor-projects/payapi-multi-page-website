@@ -32,9 +32,9 @@ const Home = () => {
         {/* [[[[[[ HERO SECTION ]]]]]] */}
         <div className=' flex sm:flex-col-reverse md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] md:justify-end lg:justify-center items-center   lg:h-[600px] '>
           {/* Left Column */}
-          <div className='flex flex-col justify-center align-middle md:w-[100%] lg:w-[50%] gap-10'>
+          <div className='flex flex-col justify-center align-middle md:w-[100%] lg:w-[50%] gap-11'>
             {/* Main Text */}
-            <div className='  w-[100%] sm:text-[32px] md:text-[48px] sm:text-center md:text-start lg:text-[72px] sm:leading-[36px] md:leading-[56px] lg:leading-[72px] md:font-[500] font-SerifDisplay sm:mt-[0px] md:mt-[-40px] lg:mt-[0] md:px-[20px] lg:px-[0px]  text-fmSanJuanBlue'>
+            <div className='  w-[100%] sm:text-[32px] md:text-[48px] sm:text-center md:text-start lg:text-[72px] sm:leading-[36px] md:leading-[56px] lg:leading-[72px] md:font-[500] font-SerifDisplay sm:mt-[-25px] md:mt-[-40px] lg:mt-[0] md:px-[20px] lg:px-[0px]  text-fmSanJuanBlue'>
               <p> Start building with our APIs for absolutely free.</p>
             </div>
             {/* Email Input & Button Row Container */}
@@ -47,7 +47,7 @@ const Home = () => {
               </button>
             </div>
             {/* Question text */}
-            <div className='text-[15px] text-fmLightSanJuanBlue lg:ml-6 md:ml-[0] mt-[-20px]  sm:text-center lg:text-left sm:mb-[90px] md:mb-0'>
+            <div className='text-[15px] text-fmLightSanJuanBlue lg:ml-6 md:ml-[0] mt-[-20px]  sm:text-center lg:text-left mb-[80px] md:mb-0'>
               <p>Have any questions? <span className='font-bold text-fmLightSanJuanBlue'>Contact Us</span></p>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Home = () => {
           {/* Right Column */}
           <div className='flex flex-row justify-center items-center lg:justify-end w-[100%] lg:w-[50%]  '>
             {/* Cellphone Image */}
-              <img className='ml-[20px] sm:h-[315px] sm:w-[200px] md:h-[416px] md:w-[252px] lg:h-[660px] lg:w-[400px] z-10' src={phone} alt="Cellphone Image" />
+              <img className='ml-[20px] sm:h-[340px] sm:w-[210px] md:h-[416px] md:w-[252px] lg:h-[660px] lg:w-[400px] z-10' src={phone} alt="Cellphone Image" />
           </div>
         </div>
         
