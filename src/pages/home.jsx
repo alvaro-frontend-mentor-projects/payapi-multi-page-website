@@ -42,7 +42,7 @@ const Home = () => {
 
 
         {/* [[[[[[ HERO SECTION ]]]]]] */}
-        <div className=' flex sm:flex-col-reverse md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] md:justify-end lg:justify-center items-center  md:h-[670px] lg:h-[600px] '>
+        <div className=' flex sm:flex-col-reverse md:flex-col-reverse lg:flex-row md:mx-[80px] lg:mx-[150px] md:justify-end lg:justify-center items-center  sm:h-[670px] lg:h-[600px] '>
           {/* Left Column */}
           <div className='flex flex-col justify-center align-middle md:w-[100%] lg:w-[50%] gap-10'>
             {/* Main Text */}
@@ -67,7 +67,7 @@ const Home = () => {
           {/* Right Column */}
           <div className='flex flex-row md:justify-center lg:justify-end md:w-[100%] lg:w-[50%]  '>
             {/* Cellphone Image */}
-              <img className='sm:h-[310px] sm:w-[195px] md:h-[416px] md:w-[252px] lg:h-[660px] lg:w-[400px] sm:mt-[-40px]  z-10' src={phone} alt="Cellphone Image" />
+              <img className='sm:h-[310px] sm:w-[195px] md:h-[416px] md:w-[252px] lg:h-[660px] lg:w-[400px] sm:mt-[-35px]  z-10' src={phone} alt="Cellphone Image" />
           </div>
         </div>
         

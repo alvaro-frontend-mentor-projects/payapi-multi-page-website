@@ -5,7 +5,7 @@ import Home from '../pages/Home'
 
 const Layout = () => {
   return (
-    <div className="">
+    <div className="bg-[#EDF3F8] sm:px-[24px]">
       <Navbar className=""/>
       <Routes>
         <Route path='/' element={<Home className=""/>}/>

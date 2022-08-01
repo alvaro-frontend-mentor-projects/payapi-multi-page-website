@@ -19,9 +19,9 @@ const Navbar = () => {
 
 	return (
 		//// NAVBAR CONTAINER ////
-		<div className="w-[100vw] sm:h-[120px] md:h-[150px] flex flex-col justify-center items-center bg-[#EDF3F8] relative  ">
-			{/* Flex Container */}
-			<div className="flex flex-row justify-between w-[80%] gap-10 items-center ">
+		
+			
+			<div className="flex flex-row justify-between  gap-10 items-center pt-[40px] ">
 				{/* Logo */}
 				<img className="s" src={logo} alt="" />
 				{/* Links */}
@@ -42,19 +42,16 @@ const Navbar = () => {
 				</button>
 
 				{/* MOBILE MENU SECTION */}
-				<div className="hidden" onClick={handleMenu}>
+				<div className="hidde" onClick={handleMenu}>
 					{mobile ? (
 						<img className="" src={hambuger} alt="hamburger menu icon" />
 					) : (
 						<img className="" src={closeMobile} alt="close menu icon" />
 					)}
 				</div>
-        {/* Pop up menu container */}
-        <div>
-          
-        </div>
+
 			</div>
-		</div>
+	
 	);
 };
 
