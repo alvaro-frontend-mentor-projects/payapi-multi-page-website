@@ -20,7 +20,7 @@ const Partners = () => {
 				alt=""
 			/>
             {/* 1 Column Container */}
-            <div className="flex flex-col px-[24px] py-[80px]">
+            <div className="flex flex-col px-[24px] py-[80px] items-center">
                 {/* Brand Section - 2 Columns */}
                 <div className="flex flex-row px-[24px] gap-10 ">
                     {/* Left Col */}
@@ -37,8 +37,19 @@ const Partners = () => {
                     </div>
                 </div>
                 {/* Title */}
+                <div className="text-white font-SerifDisplay text-center text-[32px] mt-[40px] ">
+                    <h1>Who we work with</h1>
+                </div>
                 {/* Text */}
+                <div className="text-center font-PublicSans text-[15px] leading-[28px] text-fmWaterWhite opacity-[70%] mt-[10px]">
+                    <p>
+                    Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. 
+                    </p>
+                </div>
                 {/* About us Button */}
+                <button className="border rounded-[50px] h-[48px] w-[129px] text-fmWaterWhite mt-[40px]">
+                    About Us
+                </button>
 
             </div>
 			
