@@ -1,26 +1,13 @@
-<body>
-Pricing
-About
-Contact
-Schedule a Demo
+import React from 'react'
+import ContactTitle from '../components/contactPage/ContactTitle'
 
-Submit a help request and we’ll get in touch shortly.
+const Contact = () => {
+  return (
+    <main>
+        <ContactTitle/>
 
-Name
-Email Address
-Company Name
-Title
-Message
-Stay up-to-date with company announcements and updates to our API
-Submit
+    </main>
+  )
+}
 
-Join the thousands of innovators already building with us
-
-Ready to start? 
-Enter email address 
-Schedule a Demo
-
-Pricing
-About
-Contact
-</body>
+export default Contact

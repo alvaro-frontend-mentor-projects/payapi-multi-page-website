@@ -4,6 +4,7 @@ import Navbar from '../components/shared/Navbar'
 import Home from '../pages/Home'
 import Pricing from '../pages/pricing'
 import About from '../pages/About'
+import Contact from '../pages/Contact.jsx'
 
 
 import bgCircle from '../assets/shared/desktop/bg-pattern-circle.svg'
@@ -18,9 +19,7 @@ const Layout = () => {
         <Route path='/' element={<Home className=""/>}/>
         <Route path='/Pricing' element={<Pricing className=""/>}/>
         <Route path='/About' element={<About className=""/>}/>
-        
-        
-
+        <Route path='/Contact' element={<Contact className=""/>}/>
       </Routes>
     </div>
   )
