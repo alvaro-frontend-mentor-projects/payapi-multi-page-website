@@ -12,7 +12,7 @@ import microsoftWhite from '../../assets/shared/desktop/microsoft-white.svg'
 const Partners = () => {
 	return (
         // MAIN CONTAINER
-		<main className="  h-[670px] md:h-[615px] bg-fmMirageBlue overflow-hidden relative mx-[-39px]">
+		<main className="  h-[670px] md:h-[615px] bg-fmMirageBlue overflow-hidden relative mx-[-39px] lg:mx-[-165px]">
 			{/* Background circle image */}
 			<img
 				className="absolute max-w-[1000px] w-[780px] sm:top-[-602px] sm:left-[-202px] md:top-[-552px] md:left-[-10px]"
