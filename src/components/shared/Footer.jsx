@@ -23,7 +23,7 @@ const Footer = () => {
                 alt="" 
             />
             {/* Links */}
-            <div className='flex flex-col md:flex-row items-center text-fmWaterWhite opacity-[70%] font-PublicSans md:text-[15px] md:ml-[-80px] gap-6 '>
+            <div className='flex flex-col md:flex-row items-center text-fmWaterWhite opacity-[70%] font-PublicSans md:text-[15px] md:ml-[-80px] lg:ml-[-500px] gap-6 '>
                 <Link to="/pricing">Pricing</Link>
                 <Link to="/About">About</Link>
                 <Link to="/Contact">Contact</Link>
