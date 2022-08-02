@@ -10,7 +10,7 @@ const CallAction = () => {
         <div className="flex flex-col md:flex-row items-center item gap-[15px] ">
             {/* Email */}
             <input
-                className="rounded-[50px] pl-5 pr-20 sm:mr-0 md:mr-[-35px] w-[327px] h-[48px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10"
+                className=" border-0 rounded-[50px] pl-5 pr-20 sm:mr-0 md:mr-[-35px] w-[327px] h-[48px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10"
                 type="text"
                 placeholder="Enter email address"
             />
