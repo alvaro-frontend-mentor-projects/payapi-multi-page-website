@@ -3,7 +3,7 @@ import React from 'react'
 const CallAction = () => {
   return (
     
-    <div className='flex flex-col lg:flex-row lg:justify-between lg:w-[100%] items-center gap-6 mb-[80px]  lg:mt-[40px]'>
+    <div className='flex flex-col lg:flex-row lg:justify-between lg:w-[100%] items-center gap-6  lg:mt-[40px]'>
         <h1 className='text-[32px] md:text-[48px] font-SerifDisplay text-fmSanJuanBlue'>
             Ready to start?
         </h1>

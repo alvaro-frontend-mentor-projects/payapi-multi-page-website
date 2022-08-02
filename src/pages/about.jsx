@@ -23,8 +23,10 @@ const About = () => {
         <Culture/>
         <People/>
       </div>
-      <CallAction/>
-      <Footer/>
+      <div className='flex flex-col gap-[80px]'>
+        <CallAction/>
+        <Footer/>
+      </div>
 
       
       
