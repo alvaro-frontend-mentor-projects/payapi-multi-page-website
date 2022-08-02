@@ -12,8 +12,11 @@ const Contact = () => {
         <ContactTitle/>
         <img className=' absolute max-w-[1500px] w-[780px] md:w-[1000px] right-[-470px] top-[-650px] md:right-[-700px] md:top-[-700px] lg:w-[780px] lg:left-[800px] lg:top-[-527px] z-0' src={bgCircle} alt="" />
         <div className='flex flex-col gap-[80px] md:gap-[100px]'>
-          <Form/>
-          <ContactPartners/>
+          <div className='flex flex-col lg:flex-row lg:items-center md:gap-[100px]'>
+            <Form/>
+            <ContactPartners/>
+          </div>
+          
           <CallAction/>
           <Footer/>
         </div>

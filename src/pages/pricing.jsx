@@ -53,7 +53,7 @@ const Pricing = () => {
         </div>
         <hr className='border w-[100%] border-fmLightSanJuanBlue opacity-[25%]' />
         {/* button */}
-        <button className='border rounded-[50px] h-[48px] w-[168px] border-fmSanJuanBlue text-fmSanJuanBlue text-[15px] font-[700]'>
+        <button className='border rounded-[50px] h-[48px] w-[168px] border-fmSanJuanBlue text-fmSanJuanBlue hover:bg-fmSanJuanBlue hover:text-fmWaterWhite  text-[15px] font-[700]'>
           Request Access
         </button>
       </div>
@@ -92,7 +92,7 @@ const Pricing = () => {
         </div>
         <hr className='border w-[100%] border-fmLightSanJuanBlue opacity-[25%]' />
         {/* button */}
-        <button className='border rounded-[50px] h-[48px] w-[168px] border-fmSanJuanBlue text-fmSanJuanBlue text-[15px] font-[700]'>
+        <button className='border rounded-[50px] h-[48px] w-[168px] border-fmSanJuanBlue text-fmSanJuanBlue hover:bg-fmSanJuanBlue hover:text-fmWaterWhite  text-[15px] font-[700]'>
           Request Access
         </button>
       </div>
@@ -133,7 +133,7 @@ const Pricing = () => {
         </div>
         <hr className='border w-[100%] border-fmLightSanJuanBlue opacity-[25%]' />
         {/* button */}
-        <button className='border rounded-[50px] h-[48px] w-[168px] border-fmSanJuanBlue text-fmSanJuanBlue text-[15px] font-[700]'>
+        <button className='border rounded-[50px] h-[48px] w-[168px] border-fmSanJuanBlue text-fmSanJuanBlue hover:bg-fmSanJuanBlue hover:text-fmWaterWhite text-[15px] font-[700]'>
           Request Access
         </button>
       </div>
