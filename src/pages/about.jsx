@@ -13,13 +13,13 @@ const About = () => {
   return (
     <main className=''>
       <AboutTitle/>
-      <div className='flex flex-col gap-[48px] mt-[40px] mb-[76px] lg:mx-[95px]'>
+      <div className='flex flex-col gap-[48px] mt-[40px] lg:mt-[60px] mb-[76px] lg:mx-[95px]'>
         <Vision/>
         <Business/>
       </div>
       <AboutImage/>
       <Numbers/>
-      <div className='flex flex-col gap-[48px] mt-[40px] mb-[48px]'>
+      <div className='flex flex-col gap-[48px] mt-[40px] mb-[48px] lg:mb-[100px] lg:mx-[95px]'>
         <Culture/>
         <People/>
       </div>
