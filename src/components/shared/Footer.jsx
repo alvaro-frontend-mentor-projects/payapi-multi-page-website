@@ -8,7 +8,7 @@ import Linkedin from '../../assets/shared/desktop/linkedin.svg'
 
 const Footer = () => {
   return (
-    <main className='flex flex-col h-[353px] md:h-[100px] bg-fmMirageBlue overflow-hidden relative mx-[-24px] md:mx-[-39px] lg:mx-[-165px] '>
+    <main className='flex flex-col md:justify-center h-[353px] md:h-[100px] bg-fmMirageBlue overflow-hidden relative mx-[-24px] md:mx-[-39px] lg:mx-[-165px] '>
         <img
             className="absolute max-w-[1000px] w-[780px]  bottom-[-606px] left-[-202px] md:bottom-[-606px] md:left-[330px]"
             src={bgCircle}
