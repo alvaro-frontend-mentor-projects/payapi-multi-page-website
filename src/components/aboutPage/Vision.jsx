@@ -6,7 +6,7 @@ const Vision = () => {
         <h1 className='text-[24px] md:text-[32px] text-fmSanJuanBlue font-SerifDisplay'>
             Our Vision
         </h1>
-        <p className='text-[15px] text-fmLightSanJuanBlue text-center md:text-left leading-[28px] md:w-[456px] '>
+        <p className='text-[15px] text-fmLightSanJuanBlue text-center md:text-left leading-[28px] md:w-[456px] lg:w-[635px] '>
             Our main goal is to build beautiful consumer experiences along with developer-friendly infrastructure. The result is an intelligent tool that gives everyone the ability to create amazing products that solve big problems. We are deeply focused on democratizing financial services through technology. 
         </p>
     </div>
