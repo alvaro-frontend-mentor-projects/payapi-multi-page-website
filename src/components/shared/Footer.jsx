@@ -8,14 +8,14 @@ import Linkedin from '../../assets/shared/desktop/linkedin.svg'
 
 const Footer = () => {
   return (
-    <main className='flex flex-col h-[353px] md:h-[100px] bg-fmMirageBlue overflow-hidden relative mx-[-24px] md:mx-[-39px]'>
+    <main className='flex flex-col h-[353px] md:h-[100px] bg-fmMirageBlue overflow-hidden relative mx-[-24px] md:mx-[-39px] lg:mx-[-165px] '>
         <img
             className="absolute max-w-[1000px] w-[780px]  bottom-[-606px] left-[-202px] md:bottom-[-606px] md:left-[330px]"
             src={bgCircle}
             alt=""
         />
         {/* flex container */}
-        <div className='flex flex-col md:flex-row justify-center md:justify-between items-center px-[120px] md:px-[39px] py-[40px] gap-10'>
+        <div className='flex flex-col md:flex-row justify-center md:justify-between items-center px-[120px] md:px-[39px] lg:px-[165px] py-[40px] gap-10'>
             {/* Logo */}
             <img
                 className='max-w-[300px] w-[135px]'
