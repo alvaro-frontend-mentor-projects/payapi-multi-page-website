@@ -19,7 +19,7 @@ const Hero = () => {
 				<div className="flex sm:flex-col sm:items-center md:item md:flex-row md:justify-center lg:justify-start sm:gap-[15px] md:gap-0 sm:mt-[-20px]">
 					{/* Email */}
 					<input
-						className="rounded-[50px] pl-5 pr-20 sm:mr-0 md:mr-[-35px] w-[327px] h-[48px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10"
+						className="border-0 rounded-[50px] pl-5 pr-20 sm:mr-0 md:mr-[-35px] w-[327px] h-[48px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10"
 						type="text"
 						placeholder="Enter email address"
 					/>

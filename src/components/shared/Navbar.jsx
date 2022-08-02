@@ -20,7 +20,7 @@ const Navbar = () => {
 	return (
 		//// NAVBAR CONTAINER ////
 		
-			
+			<>
 			<div className="flex flex-row justify-between  gap-10 items-center pt-[40px] ">
 				{/* Logo */}
 				<Link to="/">
@@ -45,7 +45,7 @@ const Navbar = () => {
 				</button>
 
 				{/* MOBILE MENU SECTION */}
-				<div className="z-10 md:hidden" onClick={handleMenu}>
+				<div className="z-40 md:hidden" onClick={handleMenu}>
 					{mobile ? (
 						<img className="" src={hambuger} alt="hamburger menu icon" />
 					) : (
@@ -54,7 +54,24 @@ const Navbar = () => {
 				</div>
 
 			</div>
-	
+			<div className={mobile ? "hidden" : "block "}>
+				<div className="h-[667px] w-[300px] bg-fmMirageBlue absolute top-0 right-0 z-30">
+
+					<ul className="flex flex-col items-center gap-10 text-[15px] font-PublicSans font-[500] text-fmLightSanJuanBlue">
+						<li className="hover:text-fmSanJuanBlue z-10">
+							<Link to="/pricing">Pricing</Link>
+						</li>
+						<li className="hover:text-fmSanJuanBlue z-10">
+							<Link to="/about">About</Link>
+						</li>
+						<li className="hover:text-fmSanJuanBlue z-10">
+							<Link to="/contact">Contact</Link>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			</>
 	);
 };
 
