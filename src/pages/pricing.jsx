@@ -12,17 +12,16 @@ const Pricing = () => {
 
 
   return (
-    <div className='flex flex-col justify-center mt-[40px]'>
+    <>
+    {/* Title */}
+    <h1 className='text-[32px] md:text-[48px] text-fmSanJuanBlue font-SerifDisplay text-center mt-[40px] md:mt-[80px] '>
+      Pricing
+    </h1>
+          <img className=' absolute max-w-[1500px] w-[780px] md:w-[1000px] right-[-470px] top-[-650px] md:right-[-700px] md:top-[-700px] lg:w-[780px] lg:left-[850px] lg:top-[-180px] z-0' src={bgCircle} alt="" />
 
-      <img className=' absolute max-w-[1500px] w-[780px] md:w-[1000px] right-[-470px] top-[-650px] md:left-[-120px] md:top-[-720px] lg:w-[780px] lg:left-[850px] lg:top-[-180px] z-0' src={bgCircle} alt="" />
-
-      {/* Title */}
-      <h1 className='text-[32px] text-fmSanJuanBlue font-SerifDisplay text-center '>
-        Pricing
-      </h1>
-
+    <div className='flex flex-col md:flex-row  md:justify-between  md:gap-0 '>
       {/* Free Plan */}
-      <div className='flex flex-col items-center gap-6'>
+      <div className='flex flex-col items-center md:w-[223px] gap-6'>
         {/* plan */}
         <h3 className='text-[24px] text-fmDarkPink font-SerifDisplay text-center mt-[40px] mb-[40px]'>
           Free Plan
@@ -59,7 +58,7 @@ const Pricing = () => {
       </div>
 
       {/* Basic Plan */}
-      <div className='flex flex-col items-center gap-6'>
+      <div className='flex flex-col items-center  md:w-[223px] gap-6'>
         {/* plan */}
         <h3 className='text-[24px] text-fmDarkPink font-SerifDisplay text-center mt-[40px] mb-[40px]'>
           Basic Plan
@@ -98,7 +97,7 @@ const Pricing = () => {
       </div>
 
       {/* Premium Plan */}
-      <div className='flex flex-col items-center gap-6'>
+      <div className='flex flex-col items-center  md:w-[223px] gap-6'>
         {/* plan */}
         <h3 className='text-[24px] text-fmDarkPink font-SerifDisplay text-center mt-[40px] mb-[40px]'>
           Premium Plan
@@ -137,35 +136,30 @@ const Pricing = () => {
           Request Access
         </button>
       </div>
-
-      {/* Call to action */}
-      <div className='flex flex-col items-center gap-6 mt-[80px] mb-[80px]'>
-                <h1 className='text-[32px] md:text-[48px] font-SerifDisplay text-fmSanJuanBlue'>
-                    Ready to start?
-                </h1>
-                <div className="flex flex-col md:flex-row items-center item gap-[15px] ">
-					{/* Email */}
-					<input
-						className="rounded-[50px] pl-5 pr-20 sm:mr-0 md:mr-[-35px] w-[327px] h-[48px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10"
-						type="text"
-						placeholder="Enter email address"
-					/>
-					{/* Button */}
-					<button className=" bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-PublicSans font-[700] text-fmWaterWhite sm:w-[327px] md:w-[173px] h-[48px] md:ml-[-30px] rounded-[50px] z-10">
-						Schedule a Demo
-					</button>
-				</div>
-      </div>
-
-      {/* Footer */}
-      <Footer/>
-
-      
     </div>
 
+    {/* Call to action */}
+    <div className='flex flex-col items-center gap-6 mt-[80px] mb-[80px]'>
+      <h1 className='text-[32px] md:text-[48px] font-SerifDisplay text-fmSanJuanBlue'>
+          Ready to start?
+      </h1>
+      <div className="flex flex-col md:flex-row items-center item gap-[15px] ">
+        {/* Email */}
+        <input
+        className="rounded-[50px] pl-5 pr-20 sm:mr-0 md:mr-[-35px] w-[327px] h-[48px] text-fmSanJuanBlue font-PublicSans font-[500] focus:outline-none z-10"
+        type="text"
+        placeholder="Enter email address"
+        />
+        {/* Button */}
+        <button className=" bg-fmDarkPink hover:bg-fmCharmPink text-[15px] font-PublicSans font-[700] text-fmWaterWhite sm:w-[327px] md:w-[173px] h-[48px] md:ml-[-30px] rounded-[50px] z-10">
+        Schedule a Demo
+        </button>
+      </div>
+    </div>
+    {/* Footer */}
+    <Footer/>
+    </>
     
-
-
   )
 }
 
