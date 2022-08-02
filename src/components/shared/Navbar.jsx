@@ -23,7 +23,10 @@ const Navbar = () => {
 			
 			<div className="flex flex-row justify-between  gap-10 items-center pt-[40px] ">
 				{/* Logo */}
-				<img className="s" src={logo} alt="" />
+				<Link to="/">
+					<img className="" src={logo} alt="" />
+				</Link>
+				
 				{/* Links */}
 				<ul className="sm:hidden md:flex lg:flex flex-row gap-10 text-[15px] font-PublicSans font-[500] text-fmLightSanJuanBlue">
 					<li className="hover:text-fmSanJuanBlue z-10">
