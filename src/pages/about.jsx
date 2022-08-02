@@ -7,6 +7,7 @@ import Numbers from '../components/aboutPage/Numbers'
 import Culture from '../components/aboutPage/Culture'
 import People from '../components/aboutPage/People'
 import CallAction from '../components/shared/CallAction'
+import Footer from '../components/shared/Footer'
 
 const About = () => {
   return (
@@ -18,11 +19,12 @@ const About = () => {
       </div>
       <AboutImage/>
       <Numbers/>
-      <div className='flex flex-col gap-[48px] mt-[40px] mb-[76px]'>
+      <div className='flex flex-col gap-[48px] mt-[40px] mb-[48px]'>
         <Culture/>
         <People/>
       </div>
       <CallAction/>
+      <Footer/>
 
       
       
