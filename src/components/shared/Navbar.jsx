@@ -10,6 +10,7 @@ import closeMobile from "../../assets/shared/mobile/close.svg";
 const Navbar = () => {
 	//MOBILE MENU STATE
 	const [mobile, setMobile] = useState(true);
+	console.log(mobile)
 
 	const handleMenu = function () {
 		setMobile(!mobile);
@@ -57,17 +58,26 @@ const Navbar = () => {
 			<div className={mobile ? "hidden" : "block "}>
 				<div className="h-[667px] w-[300px] bg-fmMirageBlue absolute top-0 right-0 z-30">
 
-					<ul className="flex flex-col items-center gap-10 text-[15px] font-PublicSans font-[500] text-fmLightSanJuanBlue">
-						<li className="hover:text-fmSanJuanBlue z-10">
-							<Link to="/pricing">Pricing</Link>
+					<ul className="flex flex-col items-center justify-start mt-[100px] h-[667px] gap-10 text-[20px] font-PublicSans font-[500] text-fmWaterWhite opacity-[70%]">
+						<li>
+							<hr className="w-[249px] border-2 border-fmWaterWhite opacity-[15%]" />
 						</li>
 						<li className="hover:text-fmSanJuanBlue z-10">
-							<Link to="/about">About</Link>
+							<Link onClick={handleMenu} to="/pricing">Pricing</Link>
 						</li>
 						<li className="hover:text-fmSanJuanBlue z-10">
-							<Link to="/contact">Contact</Link>
+							<Link onClick={handleMenu} to="/about">About</Link>
+						</li>
+						<li className="hover:text-fmSanJuanBlue z-10">
+							<Link onClick={handleMenu} to="/contact">Contact</Link>
+						</li>
+						<li>
+							<button className="font-PublicSans font-[500] bg-fmDarkPink hover:bg-fmCharmPink text-[15px]  text-fmWaterWhite w-[252px] h-[48px] rounded-[50px] z-10">
+							Schedule a Demo
+							</button>
 						</li>
 					</ul>
+					
 
 				</div>
 			</div>
