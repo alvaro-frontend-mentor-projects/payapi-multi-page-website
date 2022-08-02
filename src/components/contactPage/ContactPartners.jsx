@@ -9,7 +9,7 @@ import microsoft from '../../assets/shared/desktop/microsoft.svg'
 
 const ContactPartners = () => {
   return (
-    <div className='flex flex-col items-center gap-[32px]'>
+    <div className='flex flex-col items-center md:mb-[100px] md:mt-[64px] gap-[32px]'>
         <h1 className='text-[24px] md:text-[24px] lg:text-[56px] font-SerifDisplay text-fmSanJuanBlue opacity-[75%] leading-[32px] md:leading-[32px] text-center lg:text-left md:w-[445px]'>
             Join the thousands of innovators already building with us
         </h1>
