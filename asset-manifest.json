@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.a7380294.css",
+    "main.js": "/photo-port/static/js/main.9bdf67dd.js",
+    "static/media/image-team-members.jpg": "/photo-port/static/media/image-team-members.29ea3022391f47fbb8d3.jpg",
+    "static/media/illustration-simple-ui.svg": "/photo-port/static/media/illustration-simple-ui.dfb875ac4a8d13d9f71eaa43d6cfcc5c.svg",
+    "static/media/logo-white.svg": "/photo-port/static/media/logo-white.738d336c1529b9b31eab19733e229286.svg",
+    "static/media/logo.svg": "/photo-port/static/media/logo.23aa4a684cffc134b235486209dc35a0.svg",
+    "static/media/illustration-phone-mockup.svg": "/photo-port/static/media/illustration-phone-mockup.46990b5371664ee65fb5f6dcc32ba29b.svg",
+    "static/media/microsoft-white.svg": "/photo-port/static/media/microsoft-white.ec0ebc4874e56c3ecd39d3fd39b476f0.svg",
+    "static/media/microsoft.svg": "/photo-port/static/media/microsoft.9eb561c5c9db2c4a3e22abeeb96cccbc.svg",
+    "static/media/hp-white.svg": "/photo-port/static/media/hp-white.11c4d0fd0d9e3b627fd312821c08dac7.svg",
+    "static/media/hp.svg": "/photo-port/static/media/hp.9b905502ec1dc960b4325464e904d7db.svg",
+    "static/media/google-white.svg": "/photo-port/static/media/google-white.c8ed2d53adf588a088e5d9b09a403f94.svg",
+    "static/media/google.svg": "/photo-port/static/media/google.94879ccff6c11fd5c81f693ff19222ac.svg",
+    "static/media/icon-personal-finances.svg": "/photo-port/static/media/icon-personal-finances.cdda9f8238e0f85df2a4ca6a91dea61c.svg",
+    "static/media/nvidia-white.svg": "/photo-port/static/media/nvidia-white.499891936dc60563ef92bf9d5f4a20b9.svg",
+    "static/media/nvidia.svg": "/photo-port/static/media/nvidia.10f5c5b8aa4cb07cf423e7442b2bca31.svg",
+    "static/media/illustration-easy-to-implement.svg": "/photo-port/static/media/illustration-easy-to-implement.c3a3171cd344b84c6d8f2f83f3d32caf.svg",
+    "static/media/icon-banking-and-coverage.svg": "/photo-port/static/media/icon-banking-and-coverage.c19127eb69fba64259a6f9c7f8b6401b.svg",
+    "static/media/oracle-white.svg": "/photo-port/static/media/oracle-white.c9a14b3a6494b36dab532c544d8f916b.svg",
+    "static/media/oracle.svg": "/photo-port/static/media/oracle.dde8d74856f2120cd0089350c12bc474.svg",
+    "static/media/tesla-white.svg": "/photo-port/static/media/tesla-white.f9f441d2cc85a45e5094be731d5fe0be.svg",
+    "static/media/tesla.svg": "/photo-port/static/media/tesla.251aa1055623255df992f14be109a5d5.svg",
+    "index.html": "/photo-port/index.html",
+    "static/media/icon-consumer-payments.svg": "/photo-port/static/media/icon-consumer-payments.329b6c98fe30154b3985866bf68d0b9f.svg",
+    "static/media/twitter.svg": "/photo-port/static/media/twitter.cf07a6dec7365340fc7bde1f11231b35.svg",
+    "static/media/linkedin.svg": "/photo-port/static/media/linkedin.27f69bed5cf4d882a491222f16652e6e.svg",
+    "static/media/facebook.svg": "/photo-port/static/media/facebook.f37142b6677d786fbd43b109d00b2508.svg",
+    "static/media/bg-pattern-circle.svg": "/photo-port/static/media/bg-pattern-circle.2f3a4c70060369763a5531031e258e21.svg",
+    "static/media/close.svg": "/photo-port/static/media/close.825df35a3287696cdde2458e37670931.svg",
+    "static/media/icon-check.svg": "/photo-port/static/media/icon-check.e88dc5fa8fcdfef4fdc9060d57c99a7c.svg",
+    "static/media/menu.svg": "/photo-port/static/media/menu.5062cf20d68a5a275c8262ea469e1798.svg",
+    "main.a7380294.css.map": "/photo-port/static/css/main.a7380294.css.map",
+    "main.9bdf67dd.js.map": "/photo-port/static/js/main.9bdf67dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7380294.css",
+    "static/js/main.9bdf67dd.js"
+  ]
+}
